@@ -1,8 +1,16 @@
 # markov-ocean-prediction
 A location prediction for floating particles on the ocean surface, based on Markov chains.
 
+## Packages
+This code is based on two packages:
+1. [pygtm](https://github.com/philippemiron/pygtm) - which you will need to download locally.
+2. [parcels](https://github.com/OceanParcels/Parcels) - which can be installed with pip.
 
-## ReadME
+## Data files
+These codes will only run if you have the required data files that are not added here.
+They should work with other nc files, but as the structure slightly varies it might be needed to modded lightly.
+
+## How To Use
 
 In order to use these codes with ease, please read below.
 
