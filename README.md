@@ -3,12 +3,18 @@ A location prediction for floating particles on the ocean surface, based on Mark
 
 ## Packages
 This code is based on two packages:
-1. [pygtm](https://github.com/philippemiron/pygtm) - which you will need to download locally.
+1. [pygtm](https://github.com/philippemiron/pygtm) - which you will need to download locally. <br>
+I have added here the package with the modded `dataset2.py` file, but the only difference is the oversmapling value. <br>
+Available at folder `modded-pygtm`.
 2. [parcels](https://github.com/OceanParcels/Parcels) - which can be installed with pip.
 
+## Guide
+I wrote a 2-part guide to complement the tutorials provided by Miron for using the pygtm package and using the Markov prediction. <br>
+__Note__ that the reading of NC files is different here, as the structure of the NC file for this example was different from the files created by the parcels script added here. 
+
 ## Data files
-These codes will only run if you have the required data files that are not added here.
-They should work with other nc files, but as the structure slightly varies it might be needed to modded lightly.
+Data files are not provided, please ask if you need them for validation or help. <br>
+__Note__ that NC files might have different structs and might require different handling in the code.
 
 ## How To Use
 
