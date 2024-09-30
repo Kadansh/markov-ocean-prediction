@@ -41,7 +41,7 @@ We need to run several files to make a map prediction using Markov.
 
 2. Convert using a script the zarr file to an nc file: <br>
     `tool_zarr_to_nc.py`  - Use this one for zarr files created without MPI or with MPI with 1 processing unit <br>
-   `tool_zarr_to_nc_MPI` - Use this one for zarr files created with MPI with more than 1 processing unit <br>
+   `tool_zarr_to_nc_MPI.py` - Use this one for zarr files created with MPI with more than 1 processing unit <br>
 
     <ins>Details about some parameters:</ins> <br>
     * 'filename' - change file name to match the folder name in output_zarr_name
